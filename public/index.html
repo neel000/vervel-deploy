@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- plugin css for this page -->
+    
+    <link
+      rel="stylesheet"
+      href="/layout/vendors/mdi/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="/layout/vendors/aos/dist/aos.css/aos.css" />
+
+    <!-- End plugin css for this page -->
+    <link rel="shortcut icon" href="/layout/images/favicon.png" />
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/layout/css/style.css">
+    <style>
+      a{
+        color: rgb(113, 126, 248);
+      }
+      a:hover{
+        color: blue;
+      }
+    </style>
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"> </div>
+
+    
+    
+
+    <!-- inject:js -->
+    <script src="/layout/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <script src="/layout/vendors/aos/dist/aos.js/aos.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page-->
+    <script src="/layout/js/demo.js"></script>
+    <script src="/layout/js/jquery.easeScroll.js"></script>
+    <!-- End custom js for this page-->
+  </body>
+</html>
